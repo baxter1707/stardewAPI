@@ -1,0 +1,12 @@
+'use strict';
+module.exports = (sequelize, DataTypes) => {
+  var farm = sequelize.define('farm', {
+    farmName: DataTypes.STRING,
+    farmDescription: DataTypes.STRING,
+    favoredSkill: DataTypes.STRING
+  }, {});
+  farm.associate = function(models) {
+    // associations can be defined here
+  };
+  return farm;
+};
