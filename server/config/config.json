@@ -1,9 +1,9 @@
 {
   "development": {
-    "username": "michaelbaxter",
-    "password": null,
-    "database": "stardew",
-    "host": "127.0.0.1",
+    "username": "michaelbaxter1707",
+    "password": "gtyj2448",
+    "database": "stardewValley",
+    "host": "stardewvalley.cc57csrvxufx.us-east-2.rds.amazonaws.com",
     "dialect": "postgres"
   },
   "test": {

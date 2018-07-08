@@ -14,7 +14,10 @@ module.exports = {
       farmDescription: {
         type: Sequelize.STRING
       },
-      favoredSkill: {
+      farmImage: {
+        type: Sequelize.STRING
+      },
+      farmSkill: {
         type: Sequelize.STRING
       },
       createdAt: {
