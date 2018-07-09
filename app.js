@@ -6,6 +6,8 @@ const models = require('./server/models')
 // Set up the express app
 const app = express();
 
+app.set('port',(process.env.PORT || 8000))
+
 app.use(logger('dev'));
 
 app.use(bodyParser.json());
@@ -28,4 +30,6 @@ app.get('/jsonFarm', (req,res) => {
   });
 });
 
-module.exports = app;
+app.listen(app.get('port'), function(){
+  console.log("we are live on port ", app.get('port'));
+});
