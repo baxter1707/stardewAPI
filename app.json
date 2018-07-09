@@ -1,0 +1,7 @@
+{
+  "name":"Stardew Valley API",
+  "description":"My first API that will be used for a ReactNative App",
+  "repository": "https://github.com/baxter1707/stardewAPI.git",
+  "keywords": ["node", "express"],
+  "image": "heroku/nodejs"
+}

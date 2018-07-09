@@ -12,7 +12,7 @@ module.exports = {
         type: Sequelize.STRING
       },
       farmDescription: {
-        type: Sequelize.STRING
+        type: Sequelize.TEXT
       },
       farmImage: {
         type: Sequelize.STRING
