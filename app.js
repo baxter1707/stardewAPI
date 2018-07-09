@@ -19,7 +19,7 @@ app.get('/', (req, res) => res.status(200).send({
 }));
 
 app.get('/test', (req, res) => res.status(200).send({
-  message: 'Welcome to the beginning of nothingness.',
+  message: 'This is a test',
 }));
 
 
